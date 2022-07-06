@@ -1,16 +1,16 @@
 # API-DESGIN
 
-1. Database: SQL
+### 1. Database: SQL
 
-2. Schema
+### 2. Schema
 
  ![image](https://user-images.githubusercontent.com/73557557/177518765-ebc813a8-891a-475e-840a-34c6f9bcf65c.png)
 
-3. Requests
+### 3. Requests
 
 GET requests will be made to retrieve information about people, houses and addresses
 
-4. Routes
+### 4. Routes
 
  /peoples/:age
 
@@ -22,7 +22,7 @@ GET requests will be made to retrieve information about people, houses and addre
 
  /addresses/:postcode
 
-5. Handling requests/responses
+### 5. Handling requests/responses
 
 GET requests are made therefore responses returned should be of status code 200 stating the request has been successful.
 
