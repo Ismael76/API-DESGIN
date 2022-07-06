@@ -33,9 +33,11 @@ POST request to store people, houses and addresses
    /addresses
    
    
-### 5. Handling requests/responses
+### 5. Handling Requests/Responses
 
-GET requests are made therefore responses returned should be of status code 200 stating the request has been successful.
+GET requests are made therefore responses returned should be of status code 200 stating the request has been successful, else status code 404 would be shown.
+
+POST requests would either return 404 if unsuccessful or 201 if successful.
 
 The content types of these responses should be JSON.
 
