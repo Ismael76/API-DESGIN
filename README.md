@@ -22,7 +22,7 @@ POST request to store people, houses and addresses
 
    /peoples/:capacity
 
-   /houses/?area="E7"
+   /houses/?area="E7"&?minAge=20&maxAge=65
 
    /addresses/:postcode
  
