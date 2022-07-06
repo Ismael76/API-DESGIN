@@ -10,7 +10,7 @@
 
 GET requests will be made to retrieve information about people, houses and addresses
 
-4.
+4. Routes
 
  /peoples/:age
 
@@ -22,7 +22,7 @@ GET requests will be made to retrieve information about people, houses and addre
 
  /addresses/:postcode
 
-5.
+5. Handling requests/responses
 
 GET requests are made therefore responses returned should be of status code 200 stating the request has been successful.
 
