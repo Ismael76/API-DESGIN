@@ -10,18 +10,29 @@
 
 GET requests will be made to retrieve information about people, houses and addresses
 
+POST request to store people, houses and addresses
+
 ### 4. Routes
 
- /peoples/:age
+## GET:
 
- /peoples/?minAge=20&maxAge=65
+   /peoples/:age
 
- /peoples/:capacity
+   /peoples/?minAge=20&maxAge=65
 
- /houses/?area="E7"
+   /peoples/:capacity
 
- /addresses/:postcode
+   /houses/?area="E7"
 
+   /addresses/:postcode
+ 
+ ## POST:
+ 
+   /peoples
+   
+   /addresses
+   
+   
 ### 5. Handling requests/responses
 
 GET requests are made therefore responses returned should be of status code 200 stating the request has been successful.
